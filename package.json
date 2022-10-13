@@ -1,0 +1,26 @@
+{
+  "name": "desafio11-object-process",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "0x server.js",
+    "test": "node autocannon.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "autocannon": "^7.10.0",
+    "bcrypt": "^5.0.1",
+    "connect-mongo": "^4.6.0",
+    "cookie-parser": "^1.4.6",
+    "dotenv": "^16.0.2",
+    "ejs": "^3.1.8",
+    "express": "^4.18.1",
+    "express-session": "^1.17.3",
+    "minimist": "^1.2.6",
+    "mongoose": "^6.5.5",
+    "pino": "^8.6.1"
+  }
+}
